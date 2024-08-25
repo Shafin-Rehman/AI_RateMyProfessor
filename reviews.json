@@ -1,0 +1,124 @@
+{
+    "reviews": [
+        {
+            "Professor": "Dr. Emily Chen",
+            "Subject": "Physics",
+            "Stars": 4,
+            "Reviews": "Excellent lecturer, makes complex topics accessible."
+        },
+        {
+            "Professor": "Prof. Michael Rodriguez",
+            "Subject": "Computer Science",
+            "Stars": 5,
+            "Reviews": "Brilliant instructor, always willing to help outside of class."
+        },
+        {
+            "Professor": "Dr. Sarah Johnson",
+            "Subject": "Biology",
+            "Stars": 3,
+            "Reviews": "Knowledgeable but lectures can be dry at times."
+        },
+        {
+            "Professor": "Prof. David Lee",
+            "Subject": "History",
+            "Stars": 5,
+            "Reviews": "Passionate about the subject, brings history to life."
+        },
+        {
+            "Professor": "Dr. Lisa Patel",
+            "Subject": "Psychology",
+            "Stars": 4,
+            "Reviews": "Engaging lectures and interesting assignments."
+        },
+        {
+            "Professor": "Prof. Robert Smith",
+            "Subject": "Mathematics",
+            "Stars": 2,
+            "Reviews": "Difficult to follow, often moves too fast through material."
+        },
+        {
+            "Professor": "Dr. Jennifer Brown",
+            "Subject": "Chemistry",
+            "Stars": 5,
+            "Reviews": "Clear explanations and helpful lab demonstrations."
+        },
+        {
+            "Professor": "Prof. Thomas Wilson",
+            "Subject": "English Literature",
+            "Stars": 4,
+            "Reviews": "Insightful analysis of texts, encourages critical thinking."
+        },
+        {
+            "Professor": "Dr. Amanda Taylor",
+            "Subject": "Sociology",
+            "Stars": 3,
+            "Reviews": "Interesting topics but could improve on classroom management."
+        },
+        {
+            "Professor": "Prof. James Anderson",
+            "Subject": "Economics",
+            "Stars": 5,
+            "Reviews": "Makes economics relevant with real-world examples."
+        },
+        {
+            "Professor": "Dr. Maria Garcia",
+            "Subject": "Art History",
+            "Stars": 4,
+            "Reviews": "Passionate about art, lectures are like virtual museum tours."
+        },
+        {
+            "Professor": "Prof. Kevin Wright",
+            "Subject": "Political Science",
+            "Stars": 3,
+            "Reviews": "Knowledgeable but could be more objective in discussions."
+        },
+        {
+            "Professor": "Dr. Rachel Kim",
+            "Subject": "Neuroscience",
+            "Stars": 5,
+            "Reviews": "Cutting-edge research incorporated into lessons, very inspiring."
+        },
+        {
+            "Professor": "Prof. Daniel Brown",
+            "Subject": "Philosophy",
+            "Stars": 4,
+            "Reviews": "Challenges students to think deeply, great discussions."
+        },
+        {
+            "Professor": "Dr. Laura Martinez",
+            "Subject": "Environmental Science",
+            "Stars": 5,
+            "Reviews": "Engaging field trips and practical applications of theories."
+        },
+        {
+            "Professor": "Prof. Steven Clark",
+            "Subject": "Business Administration",
+            "Stars": 2,
+            "Reviews": "Seems disorganized, often unprepared for lectures."
+        },
+        {
+            "Professor": "Dr. Olivia Watson",
+            "Subject": "Linguistics",
+            "Stars": 4,
+            "Reviews": "Fascinating subject matter, professor is clearly an expert."
+        },
+        {
+            "Professor": "Prof. George Thompson",
+            "Subject": "Mechanical Engineering",
+            "Stars": 3,
+            "Reviews": "Tough grader but fair, prepare to work hard."
+        },
+        {
+            "Professor": "Dr. Samantha Lee",
+            "Subject": "Anthropology",
+            "Stars": 5,
+            "Reviews": "Captivating storyteller, makes ancient cultures come alive."
+        },
+        {
+            "Professor": "Prof. William Harris",
+            "Subject": "Music Theory",
+            "Stars": 4,
+            "Reviews": "Patient instructor, great at explaining complex concepts."
+        }
+    ]
+}
