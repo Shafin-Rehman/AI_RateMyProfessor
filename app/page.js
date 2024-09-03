@@ -1,14 +1,15 @@
-'useclient'
+'use client';
 import Image from "next/image";
 import { useState } from "react";
+import { Box, Stack, TextField, Button } from "@mui/material";
 
 export default function Home() {
   const [messages, setMessages] = useState([
     {
       role: "assistant",
-      content: "Hi! I am the Rate My Professor support assistant. How can I helo you today?"
+      content: "Hi! I am the Rate My Professor support assistant. How can I help you today?"
     }
-  ])
+  ]);
   const [message, setMessage] = useState('');
 
   // Renamed function to avoid name conflict with setMessage state setter
@@ -48,7 +49,8 @@ export default function Home() {
         return reader.read().then(processText);
       });
     });
-  }
+  };
+
   return (
     <Box
       width="100vw"
@@ -73,24 +75,22 @@ export default function Home() {
           overflow="auto"
           maxHeight="100%"
         >
-          {
-            messages.map((message, index) => (
+          {messages.map((message, index) => (
+            <Box
+              key={index}
+              display="flex"
+              justifyContent={message.role === "assistant" ? "flex-start" : "flex-end"}
+            >
               <Box
-                key={index}
-                display="flex"
-                justifyContent={message.role === "assistant" ? "flex-start" : "flex-end"}
+                bgcolor={message.role === "assistant" ? "primary.main" : "secondary.main"}
+                color="white"
+                borderRadius={16}
+                p={3}
               >
-                <Box
-                  bgcolor={message.role === "assistant" ? "primary.main" : "secondary.main"}
-                  color="white"
-                  borderRadius={16}
-                  p={3}
-                >
-                  {message.content}
-                </Box>
+                {message.content}
               </Box>
-            ))
-          }
+            </Box>
+          ))}
         </Stack>
         <Stack
           direction="row"
@@ -101,7 +101,7 @@ export default function Home() {
             fullWidth
             value={message}
             onChange={(e) => {
-              setMessage(e.target.value)
+              setMessage(e.target.value);
             }}
           />
           <Button variant="contained" onClick={sendMessage}>
